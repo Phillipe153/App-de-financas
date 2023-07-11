@@ -134,7 +134,7 @@ describe('Receitas', () => {
             });
             
             it('Verifica a visualizção de todas as receitas.', async() => {
-                const response = await chai.request(app).delete('/alteraReceitasService');
+                const response = await chai.request(app).delete('/alteraReceitas');
         
                 // expect(response.body).to.be.an('object')
                 // expect(response.body).to.have.property('fonteDaReceita')

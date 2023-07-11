@@ -1,6 +1,13 @@
-const { AdicionaNovaReceitaController, verificaReceitasController } = require('./controllerReceitas');
+const { AdicionaNovaReceitaController,
+    verificaReceitasController,
+    alteraReceitaController, 
+    verificaUmaReceitaController,
+    deletaUmaReceitaController } = require('./controllerReceitas');
 
 module.exports = {
     AdicionaNovaReceitaController,
-    verificaReceitasController
+    verificaReceitasController,
+    alteraReceitaController,
+    verificaUmaReceitaController,
+    deletaUmaReceitaController
 }

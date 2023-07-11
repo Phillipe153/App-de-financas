@@ -1,6 +1,14 @@
-const {adicionaNovaReceitaService, verificaReceitasService} = require('./serviceReceitas')
+const {
+    adicionaNovaReceitaService, 
+    verificaReceitasService, 
+    alteraReceitasService,
+    verificaUmaReceitaService,
+    deletaUmaReceitaService} = require('./serviceReceitas')
 
 module.exports = {
     adicionaNovaReceitaService,
-    verificaReceitasService
+    verificaReceitasService,
+    alteraReceitasService,
+    verificaUmaReceitaService,
+    deletaUmaReceitaService
 }
